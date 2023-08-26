@@ -1,0 +1,31 @@
+td {
+    padding: 8px 24px;
+    background-color: #EAF2FB;
+    font-size: 19px;
+    font-weight: 500;
+    text-align: center;
+    border: 9px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+p{
+    font-weight: 400;
+    font-size: 19px;
+}
+
+@media screen and (max-width:500px){
+    td {
+        padding: 7px 15px;
+        background-color: #EAF2FB;
+        font-size: 17px;
+        font-weight: 500;
+        text-align: center;
+        border: 7px solid white;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    p{
+        font-weight: 400;
+        font-size: 17px;
+    }
+}
